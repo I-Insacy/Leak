@@ -1,6 +1,4 @@
--- Burmalda.hook | Trident Survival | standalone runtime
--- Statically recovered from the supplied Trident sources. No external UI,
--- ESP, analytics or gameplay payloads are loaded by this file.
+
 local Env = getgenv and getgenv() or _G
 if Env.__BURMALDA_TRIDENT and type(Env.__BURMALDA_TRIDENT.Unload) == "function" then
   pcall(Env.__BURMALDA_TRIDENT.Unload)
